@@ -1,0 +1,91 @@
+header {
+    background-image: url(Imagens/1.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: slide;
+    animation-duration: 30s;
+    color: #010201;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    border-top: #5c3d04 3px solid;
+    border-bottom: #634102 1px solid;
+    height: 600px;
+    
+}
+@keyframes slide {
+   0% {background-image: url(Imagens/1.png) ;}
+   33% {background-image: url(Imagens/2.png) ;}
+   66% {background-image: url(Imagens/3.png) ;}
+}
+
+body {
+    background-image: url(Imagens/LTTR\ \(2\).png);
+    background-size:100%;
+    background-color: #010201;
+}
+
+.card {
+    border: #793b02 3px solid;
+    background-color: #743c08;
+}
+
+.card img { 
+    width: 280px;
+    height: 260px;
+    border-bottom: 2px #805f07 solid;
+    
+}
+.navbar {
+    background-image: url(Imagens/LTTR\ \(2\).png);
+    background-size: cover;
+}
+#imgprod1{
+    width: 600px;
+    height: 600px ;
+    background-size: cover;
+    object-fit: contain;
+    background-color: rgb(255, 255, 255);
+}
+#botprod {
+    color: #793b02;
+}
+.span {
+    color: #793b02;
+}
+
+#estrela {
+    width: 100px;
+    height: 40px;
+}
+
+#descricao1 {
+    font-size:large;
+    color: #deb361;
+}
+#carrinho {
+    background: orange;
+    color: #523501;
+    font-weight: bolder;
+    
+}
+
+#pesquiss {
+  color: #deb361;
+  background-color: #f8dba4;
+  border-color: yellow;
+}
+
+#pesquisb { 
+    background-color: #ffb429;
+    border: #f3c52c 2px solid ;
+    
+
+}
+
+#equipe {
+    width: 310px;
+    height: 310px;
+    border-radius: 10%;
+    border: 5px solid #cca422b2 ;
+}
